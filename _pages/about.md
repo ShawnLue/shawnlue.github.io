@@ -16,7 +16,7 @@ redirect_from:
 
 I received my PhD degree in July 2020, under the supervision of Prof. Ying Tan at the Key Laboratory of machine perception and intelligence, School of Electronics Engineering and Computer Science, Peking University (EECS, PKU).
 
-I received my B.S. of  and a dual degree of CS from the [School of the Gifted Young, USTC](https://en.scgy.ustc.edu.cn/) in 2016.
+I received my B.S. of Intelligence Science and Technology in Nankai University and a dual degree of Business Administration from the Tianjin University in 2016.
 
 ### Contact information
 Email: liuxiangyu.george@gmail.com
