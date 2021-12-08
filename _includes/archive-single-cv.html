@@ -36,16 +36,16 @@
     {% assign authors = post.authorlist | split: ", " %}
     {% for a in authors %}
       {% if a==authors.last %}
-          {% if a=='Feiyang Pan' %}
-            <b>Feiyang Pan</b>.
+          {% if a=='Xiangyu Liu' %}
+            <b>Xiangyu Liu</b>.
           {% else %}
             {{a}}.
           {% endif %}
       {% else %}
-          {% if a=='Feiyang Pan' %}
-            <b>Feiyang Pan</b>,
-          {% elsif a=='Feiyang Pan*' %}
-            <b>Feiyang Pan*</b>,
+          {% if a=='Xiangyu Liu' %}
+            <b>Xiangyu Liu</b>,
+          {% elsif a=='Xiangyu Liu*' %}
+            <b>Xiangyu Liu*</b>,
           {% else %}
             {{a}},
           {% endif %}
