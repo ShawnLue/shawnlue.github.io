@@ -25,8 +25,18 @@ Wechat: shawnlue_lxy93
 
 ## Research Interests
 
-My research focuses on machine learning and applications. In particular, I am working on Computational Advertising, Reinforcement Learning, Mechansim Design, Game Theory, and their applications, e.g., e-commerce advertising and game AI.
+My research focuses on machine learning and applications. In particular, I am working on Computational Advertising, Reinforcement Learning, Mechansim Design, Game Theory, and their applications, e.g., mechanism design in e-commerce advertising and game AI.
 
 _Nothing is more practical than a good theory._
 
 ## Publications
+
+<ul>{% for post in site.publications reversed %}
+{% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+## Academic visits, internships, and industry collaborations
+
+* Research collaboration with Advanced Network Lab @ SJTU for learning-based mechanism design in e-commerce advertising under supervision of [Dr. Zhenzhe Zheng](https://zhengzhenzhe220.github.io/), 2020-2021.
+* Research intern at Alibaba for reinforcement learning in e-commerce, 2019.
+* Research collaboration with [Horizon Robotics](https://en.horizon.ai/) for reinforcement learning and its applications in autonomous vehicles and game AI.
