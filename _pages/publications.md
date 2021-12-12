@@ -13,3 +13,11 @@ author_profile: true
 <ul>{% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
+
+# Manuscripts
+<br>
+<b>On Designing a Two-stage Auction for Online Advertising</b> <br>
+<i>Preprint. arXiv:2111.05555</i>
+
+
+<b>Optimal Auction Design for Advertisers with Ex Post ROI Constraints</b> <br>
