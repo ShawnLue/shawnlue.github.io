@@ -7,7 +7,7 @@ date: 2020-05-09
 venue: "AAMAS@ALA"
 year: 2020
 paperurl: "https://ala2020.vub.ac.be/papers/ALA2020_paper_22.pdf"
-authorlist: "Xiangyu Liu and Ying Tan"
+authorlist: "Xiangyu Liu, Ying Tan"
 citation: "Xiangyu Liu and Ying Tan. 2020. Feudal Latent Space Exploration for Coordinated Multi-agent Reinforcement Learning. In Adaptive and Learning Agents Workshop at International Conference on Autonomous Agents and Multi-Agent Systems(AAMAS) 2020, 8 pages."
 status: 'pub'
 ---

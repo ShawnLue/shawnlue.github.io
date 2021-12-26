@@ -7,7 +7,7 @@ date: 2020-03-27
 venue: "IEEE Transactions on Cybernetics (TCYB)"
 year: 2020
 paperurl: "https://ieeexplore.ieee.org/abstract/document/9049415/"
-authorlist: "Xiangyu Liu and Ying Tan"
+authorlist: "Xiangyu Liu, Ying Tan"
 citation: "Xiangyu Liu and Ying Tan. 2020. Attentive Relational State Representation in Decentralized Multiagent Reinforcement Learning. In IEEE Transactions on Cybernetics, doi: 10.1109/TCYB.2020.2979803."
 status: 'pub'
 ---
