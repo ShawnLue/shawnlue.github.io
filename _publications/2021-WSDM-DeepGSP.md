@@ -17,3 +17,4 @@ In e-commerce advertising, the ad platform usually relies on auction mechanisms 
 
 **Download: [[PDF]](https://arxiv.org/abs/2012.02930)**
 **Video: [[Vimeo Video]](https://vimeo.com/518928642)**
+**Slide: [[Slide]](https://shawnlue.github.io/files/WSDM_392.pdf)**
