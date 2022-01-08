@@ -8,6 +8,7 @@ venue: "WSDM"
 year: 2021
 paperurl: "https://arxiv.org/abs/2012.02930"
 video: "https://vimeo.com/518928642"
+slide: "https://shawnlue.github.io/files/WSDM_392.pdf"
 authorlist: "Xiangyu Liu*, Zhilin Zhang*, Zhenzhe Zheng, Chenrui Zhang, Miao Xu, Junwei Pan, Chuan Yu, Fan Wu, Jian Xu, Kun Gai"
 citation: "Xiangyu Liu*, Zhilin Zhang*, Zhenzhe Zheng, Chenrui Zhang, Miao Xu, Junwei Pan, Chuan Yu, Fan Wu, Jian Xu, Kun Gai. 2021. Optimizing Multiple Performance Metrics with Deep GSP Auctions for E-commerce Advertising. In Proceedings of the 14th ACM International Conference on Web Search and Data Mining (WSDM'21), March 8-12, 2021, Virtual Event, Israel, 9 pages. https://dl.acm.org/doi/10.1145/3437963.3441771"
 status: 'pub'
