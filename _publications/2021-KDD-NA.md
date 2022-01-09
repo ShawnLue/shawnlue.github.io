@@ -8,6 +8,7 @@ venue: "KDD"
 year: 2021
 paperurl: "https://arxiv.org/abs/2106.03593"
 video: "https://dl.acm.org/doi/10.1145/3447548.3467103#"
+slide: "https://shawnlue.github.io/files/KDD-ads-2024.pdf"
 authorlist: "Xiangyu Liu, Chuan Yu, Zhilin Zhang, Zhenzhe Zheng, Yu Rong, Hongtao Lv, Da Huo, Yiqing Wang, Dagui Chen, Jian Xu, Fan Wu, Guihai Chen, Xiaoqiang Zhu"
 citation: "Xiangyu Liu, Chuan Yu, Zhilin Zhang, Zhenzhe Zheng, Yu Rong, Hongtao Lv, Da Huo, Yiqing Wang, Dagui Chen, Jian Xu, Fan Wu, Guihai Chen, Xiaoqiang Zhu. 2021. Neural Auction: End-to-End Learning of Auction Mechanisms for E-Commerce Advertising. In Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD'21), Aug 14-18, 2021, Virtual Event, Singapore, 11 pages. https://dl.acm.org/doi/10.1145/3447548.3467103"
 status: 'pub'
@@ -17,3 +18,4 @@ In e-commerce advertising, it is crucial to jointly consider various performance
 
 **Download: [[PDF]](https://arxiv.org/abs/2106.03593)**
 **Video: [[ACM DL]](https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3447548.3467103&file=neural_auction_endtoend_learning_of-xiangyu_liu-chuan_yu-38958072-wB6A.mp4)**
+**Slide: [[Slide]](https://shawnlue.github.io/files/KDD-ads-2024.pdf)**
