@@ -16,8 +16,5 @@ author_profile: true
 
 # Manuscripts
 <br>
-<b>[On Designing a Two-stage Auction for Online Advertising](https://arxiv.org/abs/2111.05555)</b> <br>
-<i>Preprint. arXiv:2111.05555</i>
-
 
 <b>Optimal Auction Design for Advertisers with Ex Post ROI Constraints</b> <br>
