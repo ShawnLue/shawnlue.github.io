@@ -8,7 +8,7 @@ venue: "WSDM"
 year: 2022
 paperurl: "https://arxiv.org/abs/2106.06224"
 authorlist: "Chao Wen, Miao Xu, Zhilin Zhang, Zhenzhe Zheng, Yuhui Wang, Xiangyu Liu, Yu Rong, Dong Xie, Xiaoyang Tan, Chuan Yu, Jian Xu, Fan Wu, Guihai Chen, Xiaoqiang Zhu"
-citation: "Chao Wen, Miao Xu, Zhilin Zhang, Zhenzhe Zheng, Yuhui Wang, Xiangyu Liu, Yu Rong, Dong Xie, Xiaoyang Tan, Chuan Yu, Jian Xu, Fan Wu, Guihai Chen, Xiaoqiang Zhu. 2020. A Cooperative-Competitive Multi-Agent Framework for Auto-bidding in Online Advertising. To appear in the Proceedings of the 15th ACM International Conference on Web Search and Data Mining (WSDM), 2022"
+citation: "Chao Wen, Miao Xu, Zhilin Zhang, Zhenzhe Zheng, Yuhui Wang, Xiangyu Liu, Yu Rong, Dong Xie, Xiaoyang Tan, Chuan Yu, Jian Xu, Fan Wu, Guihai Chen, Xiaoqiang Zhu. 2022. A Cooperative-Competitive Multi-Agent Framework for Auto-bidding in Online Advertising. To appear in the Proceedings of the 15th ACM International Conference on Web Search and Data Mining (WSDM), 2022"
 status: 'pub'
 ---
 **Abstract:**
