@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/ARE
 excerpt: "Attentive relational state representation in decentralized multiagent reinforcement learning"
 date: 2020-03-27
-venue: "IEEE Transactions on Cybernetics (TCYB)"
+venue: "IEEE Transactions on Cybernetics (TCYB, IF=11.448)"
 year: 2020
 paperurl: "https://ieeexplore.ieee.org/abstract/document/9049415/"
 authorlist: "Xiangyu Liu, Ying Tan"
