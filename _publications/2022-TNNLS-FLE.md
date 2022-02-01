@@ -4,7 +4,7 @@ collection: publications
 permalink: /publications/FLE_J
 excerpt: "Feudal Latent Space Exploration for Coordinated Multi-agent Reinforcement Learning."
 date: /
-venue: "IEEE Transactions on Neural Networks and Learning Systems (IF=10.451)"
+venue: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS, IF=10.451)"
 year: 2022
 paperurl: /
 authorlist: "Xiangyu Liu, Ying Tan"
