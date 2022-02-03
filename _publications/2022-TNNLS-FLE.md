@@ -3,7 +3,7 @@ title: "Feudal Latent Space Exploration for Coordinated Multi-agent Reinforcemen
 collection: publications
 permalink: /publications/FLE_J
 excerpt: "Feudal Latent Space Exploration for Coordinated Multi-agent Reinforcement Learning."
-date: /
+date: 2022-01-20
 venue: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS, IF=10.451)"
 year: 2022
 paperurl: /
