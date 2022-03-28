@@ -40,3 +40,8 @@ _Nothing is more practical than a good theory._
 * Research collaboration with Advanced Network Lab @ SJTU for learning-based mechanism design in e-commerce advertising under supervision of [Dr. Zhenzhe Zheng](https://zhengzhenzhe220.github.io/), 2020-2021.
 * Research intern at Alibaba for reinforcement learning in e-commerce, 2019.
 * Research intern at [Horizon Robotics](https://en.horizon.ai/) for reinforcement learning and its applications in autonomous vehicles and game AI, 2016-2019.
+
+## Academic Services
+
+* Conference Reviewer: WWW 2022, WCCI 2022, ECML-PKDD 2022.
+* Journal Reviewer: IEEE Trans. on Cybernetics (TCYB), Natural Computing.
