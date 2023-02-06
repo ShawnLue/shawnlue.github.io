@@ -43,5 +43,5 @@ _Nothing is more practical than a good theory._
 
 ## Academic Services
 
-* Conference Reviewer (Program Committee Member): WWW 2022, WCCI 2022, ECML-PKDD 2022.
+* Conference Reviewer (Program Committee Member): WWW 2022, WCCI 2022, ECML-PKDD 2022, IJCAI 2023, KDD 2023.
 * Journal Reviewer: IEEE Trans. on Cybernetics (TCYB), Natural Computing.
