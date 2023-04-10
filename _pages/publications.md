@@ -14,7 +14,4 @@ author_profile: true
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
 
-# Manuscripts
-<br>
 
-<b>Optimal Auction Design for Advertisers with Ex Post ROI Constraints</b> <br>
