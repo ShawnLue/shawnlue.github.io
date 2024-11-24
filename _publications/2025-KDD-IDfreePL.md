@@ -1,7 +1,7 @@
 ---
 title: "Personalized Language Model Learning on Text Data Without User Identifiers"
 collection: publications
-permalink: /publications/NA
+permalink: /publications/IDfreePL
 excerpt: "Personalized Language Model Learning on Text Data Without User Identifiers"
 date: 2024-11-16
 venue: "KDD"
