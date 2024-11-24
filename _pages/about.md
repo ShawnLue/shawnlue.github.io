@@ -25,7 +25,7 @@ Wechat: shawnlue_lxy93
 
 ## Research Interests
 
-My research focuses on machine learning and applications. In particular, I am working on Reinforcement Learning, Mechansim Design, Game Theory, Evolutionary Computation and their applications, e.g., mechanism design in e-commerce advertising and game AI.
+My research focuses on machine learning and applications. In particular, I am working on On-Device LLMs Personalization. Preivous interests inlclude Reinforcement Learning, Mechansim Design, Game Theory, Evolutionary Computation and their applications, e.g., mechanism design in e-commerce advertising and game AI.
 
 _Nothing is more practical than a good theory._
 
@@ -37,11 +37,12 @@ _Nothing is more practical than a good theory._
 
 ## Academic visits, internships, and industry collaborations
 
+* Research collaboration with @ SJTU for Device-Cloud LLM applications under supervision of [Dr. Chaoyue Niu]([https://zhengzhenzhe220.github.io/](https://scholar.google.com/citations?hl=en&user=SHb5q08AAAAJ&view_op=list_works&sortby=pubdate)), 2023-Now.
 * Research collaboration with Advanced Network Lab @ SJTU for learning-based mechanism design in e-commerce advertising under supervision of [Dr. Zhenzhe Zheng](https://zhengzhenzhe220.github.io/), 2020-2021.
 * Research intern at Alibaba for reinforcement learning in e-commerce, 2019.
 * Research intern at [Horizon Robotics](https://en.horizon.ai/) for reinforcement learning and its applications in autonomous vehicles and game AI, 2016-2019.
 
 ## Academic Services
 
-* Conference Reviewer (Program Committee Member): WWW 2022, WCCI 2022, ECML-PKDD 2022, IJCAI 2023, KDD 2023.
+* Conference Reviewer (Program Committee Member): WWW 2022, WCCI 2022, ECML-PKDD 2022, IJCAI 2023, KDD 2023, NeurIPS 2023, IJCAI 2024, KDD 2025.
 * Journal Reviewer: IEEE Trans. on Cybernetics (TCYB), Natural Computing.
