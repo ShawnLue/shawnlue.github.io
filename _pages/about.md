@@ -25,7 +25,7 @@ Wechat: shawnlue_lxy93
 
 ## Research Interests
 
-My research focuses on machine learning and applications. In particular, I am working on On-Device LLMs Personalization. Preivous interests inlclude Reinforcement Learning, Mechansim Design, Game Theory, Evolutionary Computation and their applications, e.g., mechanism design in e-commerce advertising and game AI.
+My research focuses on machine learning and applications. In particular, I am working on On-Device LLMs Personalization. Preivous interests include Reinforcement Learning, Mechansim Design, Game Theory, Evolutionary Computation and their applications, e.g., mechanism design in e-commerce advertising and game AI.
 
 _Nothing is more practical than a good theory._
 
