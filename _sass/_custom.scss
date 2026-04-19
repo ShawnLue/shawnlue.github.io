@@ -1,0 +1,357 @@
+/* ==========================================================================
+   Custom theme refinements — clean, modern academic homepage
+   ========================================================================== */
+
+/* ---- Color & typography overrides ---- */
+$accent: #1f6feb;
+$accent-hover: #0b52c9;
+$text: #1f2328;
+$muted: #57606a;
+$rule: #d0d7de;
+$bg-soft: #f6f8fa;
+
+html {
+  font-size: 16px;
+}
+
+body {
+  color: $text;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue",
+               "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+  font-feature-settings: "kern", "liga", "ss01";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.7;
+}
+
+.page__content {
+  font-size: 1rem;
+  line-height: 1.75;
+
+  h1, h2, h3, h4 {
+    color: $text;
+    font-weight: 650;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+
+  h2 {
+    margin: 2.25em 0 0.6em;
+    padding-bottom: 0.35em;
+    border-bottom: 1px solid $rule;
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    margin: 1.8em 0 0.5em;
+    font-size: 1.15rem;
+  }
+
+  p, li {
+    color: $text;
+  }
+
+  a {
+    color: $accent;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+
+  a:hover {
+    color: $accent-hover;
+    border-bottom-color: $accent-hover;
+  }
+
+  blockquote {
+    border-left: 3px solid $accent;
+    background: $bg-soft;
+    color: $muted;
+    padding: 0.75em 1.1em;
+    margin: 1.4em 0;
+    font-style: italic;
+    border-radius: 0 4px 4px 0;
+
+    em { color: $muted; }
+  }
+
+  code {
+    background: $bg-soft;
+    padding: 0.1em 0.35em;
+    border-radius: 3px;
+    font-size: 0.92em;
+    color: #24292f;
+  }
+
+  ul { padding-left: 1.2em; }
+  ul li { margin: 0.35em 0; }
+}
+
+/* ---- Hero block on the homepage ---- */
+.hero {
+  margin: 0 0 0.5em;
+  padding: 0 0 1.25em;
+  border-bottom: 1px solid $rule;
+
+  &__name {
+    font-size: 2.1rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin: 0 0 0.25em;
+    color: $text;
+    line-height: 1.15;
+  }
+
+  &__name-alt {
+    font-weight: 500;
+    color: $muted;
+    font-size: 0.85em;
+    margin-left: 0.25em;
+  }
+
+  &__tagline {
+    color: $muted;
+    font-size: 1.02rem;
+    margin: 0;
+  }
+}
+
+/* Hide the default archive title on the home page (we provide our own hero) */
+.archive > .page__title:empty { display: none; }
+
+/* ---- Publication list ---- */
+.publications {
+  margin-top: 0.5em;
+}
+
+.pub-year {
+  margin: 2.25em 0 0.8em !important;
+  padding: 0 !important;
+  border: 0 !important;
+  font-size: 1.35rem !important;
+  color: $muted;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+
+  &:first-of-type { margin-top: 0.5em !important; }
+}
+
+.pub-list,
+ul.pub-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.pub-list .list__item,
+.pub-list > .list__item {
+  border-bottom: 1px solid $rule;
+  padding: 0.85em 0;
+}
+
+.pub-list .list__item:last-child {
+  border-bottom: 0;
+}
+
+.pub-list .archive__item {
+  border: 0;
+  padding: 0;
+}
+
+.pub-list .archive__item-title {
+  font-size: 1.02rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0 0 0.35em;
+
+  a {
+    color: $text !important;
+    border-bottom: 0 !important;
+  }
+
+  a:hover { color: $accent !important; }
+
+  .fa-link {
+    color: $muted;
+    font-size: 0.8em;
+    margin-left: 0.3em;
+    opacity: 0.6;
+    transition: opacity 0.15s ease;
+  }
+
+  a:hover .fa-link { opacity: 1; }
+}
+
+.pub-list li {
+  list-style: none;
+  color: $muted;
+  font-size: 0.94rem;
+  line-height: 1.6;
+
+  b {
+    color: $text;
+    font-weight: 600;
+  }
+
+  i {
+    color: $text;
+    font-style: italic;
+  }
+
+  a[rel="permalink"] {
+    color: $accent !important;
+    font-size: 0.88em;
+    margin-right: 0.4em;
+    border-bottom: 0 !important;
+    white-space: nowrap;
+  }
+
+  a[rel="permalink"]:hover {
+    color: $accent-hover !important;
+    text-decoration: underline;
+  }
+}
+
+.pub-footnote {
+  margin-top: 2em;
+  color: $muted;
+  font-size: 0.88rem;
+}
+
+/* ---- Sidebar author profile ---- */
+.sidebar {
+  .author__avatar img {
+    border-radius: 50%;
+    max-width: 170px;
+    border: 1px solid $rule;
+    padding: 3px;
+    background: #fff;
+  }
+
+  .author__name {
+    font-size: 1.1rem;
+    font-weight: 650;
+    margin: 0.6em 0 0.15em;
+    color: $text;
+  }
+
+  .author__bio {
+    color: $muted;
+    font-size: 0.92rem;
+    line-height: 1.45;
+    margin: 0 0 0.8em;
+  }
+
+  .author__urls-wrapper button { display: none; }
+
+  .author__urls {
+    list-style: none;
+    padding: 0;
+    margin: 0.5em 0 0;
+
+    li {
+      font-size: 0.9rem;
+      color: $muted;
+      margin: 0.45em 0;
+      padding: 0;
+      border: 0;
+
+      a {
+        color: $text;
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        transition: color 0.15s ease, border-color 0.15s ease;
+
+        &:hover {
+          color: $accent;
+          border-bottom-color: $accent;
+        }
+      }
+
+      i {
+        color: $muted;
+        margin-right: 0.35em;
+        width: 1.1em;
+        text-align: center;
+      }
+    }
+  }
+}
+
+/* ---- Masthead / top navigation ---- */
+.masthead {
+  border-bottom: 1px solid $rule;
+  background: #fff;
+}
+
+.masthead__inner-wrap {
+  padding: 0.7em 1em;
+}
+
+.greedy-nav {
+  background: transparent;
+
+  a {
+    color: $text !important;
+    font-weight: 500;
+    transition: color 0.15s ease;
+  }
+
+  a:hover { color: $accent !important; }
+
+  .masthead__menu-item--lg a {
+    font-weight: 650;
+    font-size: 1.05rem;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* ---- Footer ---- */
+.page__footer {
+  background: $bg-soft;
+  border-top: 1px solid $rule;
+  color: $muted;
+
+  footer { padding: 1.5em 1em; }
+
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0.6em;
+
+    li {
+      display: inline-block;
+      margin-right: 1em;
+      font-size: 0.92rem;
+    }
+
+    a {
+      color: $muted;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: color 0.15s ease, border-color 0.15s ease;
+
+      &:hover {
+        color: $accent;
+        border-bottom-color: $accent;
+      }
+    }
+  }
+
+  .page__footer-copyright {
+    font-size: 0.82rem;
+    color: $muted;
+
+    a { color: $muted; text-decoration: underline; }
+    a:hover { color: $accent; }
+  }
+}
+
+/* ---- Responsive tweaks ---- */
+@media (max-width: 768px) {
+  .hero__name { font-size: 1.7rem; }
+  .hero__tagline { font-size: 0.95rem; }
+  .page__content h2 { font-size: 1.3rem; }
+  .sidebar { text-align: center; }
+  .sidebar .author__urls li { text-align: left; }
+}
