@@ -119,6 +119,30 @@ body {
 /* Hide the default archive title on the home page (we provide our own hero) */
 .archive > .page__title:empty { display: none; }
 
+/* ---- Hiring / open-positions callout ---- */
+.hiring-call {
+  margin: 1.6em 0 1.8em;
+  padding: 1em 1.2em;
+  background: #fff8e1;
+  border: 1px solid #ffe08a;
+  border-left: 4px solid #f0a500;
+  border-radius: 6px;
+  color: $text;
+  font-size: 0.97rem;
+  line-height: 1.65;
+
+  strong:first-child { color: #9a6a00; }
+
+  a {
+    color: #b36b00 !important;
+    border-bottom: 1px solid #f0a500 !important;
+  }
+  a:hover {
+    color: #7a4c00 !important;
+    border-bottom-color: #7a4c00 !important;
+  }
+}
+
 /* ---- Publication list ---- */
 .publications {
   margin-top: 0.5em;

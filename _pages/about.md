@@ -31,9 +31,14 @@ My current research focuses on **Large Language Models and their Applications** 
 - **2025-09** &nbsp; **RAGRouter** accepted to **NeurIPS 2025** — learning to route queries across retrieval-augmented LLMs.
 - **2025-05** &nbsp; Paper on ID-free personalized LM learning accepted to **KDD 2025**.
 
+<div class="hiring-call" markdown="1">
+**📣 &nbsp; Hiring research interns** &nbsp;—&nbsp; I am looking for motivated students to work on **memory agents for on-device LLM assistants**, with a concrete landing scenario on **smart keyboards**. Strong background in LLMs / agents / systems / ML preferred. Remote or on-site in Beijing. Drop me an [email](mailto:liuxiangyu.george@gmail.com) with your CV and a short note on why you are interested.
+</div>
+
 ## Research Interests
 
 - **LLMs and their Applications** &nbsp;*(current focus)*
+  - **Memory agent for on-device assistants** — persistent, personalized long-term memory for LLM agents (e.g., smart keyboards).
   - **Personalization without identifiers** — learning user-adaptive models from anonymous text data. (KDD'25)
   - **Privacy-aware interaction** — detecting and annotating privacy leakage in LLM dialogues to enable on-device protection. (KDD'26)
   - **Retrieval-augmented routing** — learning to route queries across multiple retrieval-augmented LLMs for quality–efficiency trade-off. (NeurIPS'25)
