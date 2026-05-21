@@ -55,6 +55,8 @@
         In <b><i>{{post.venue}}</i></b> {{post.year}}.
       {% elsif post.status == 'acc' %}
         To appear in <b><i>{{post.venue}}</i></b> {{post.year}}.
+      {% elsif post.status == 'arxiv' %}
+        <b><i>arXiv preprint</i></b>, {{post.year}}.
       {% else %}
         <i>Work in progress.</i>
       {% endif %}

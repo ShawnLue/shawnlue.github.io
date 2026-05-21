@@ -27,6 +27,8 @@ My current research focuses on **Large Language Models and their Applications** 
 
 ## News
 
+- **2026-04** &nbsp; New preprint on **dynamic SLM–LLM collaboration**: an on-device SLM that *learns to seek help* from the cloud LLM with quality, efficiency, and privacy jointly optimized ([arXiv](https://arxiv.org/abs/2604.17827)).
+- **2026-04** &nbsp; New preprint **DialRouter**: long-horizon sequential LLM routing for **multi-turn dialogue** via MCTS-distilled policy learning ([arXiv](https://arxiv.org/abs/2604.12385)).
 - **2026-04** &nbsp; Paper on automated privacy annotation in LLM interactions accepted to **KDD'26** (Datasets & Benchmarks Track).
 - **2025-09** &nbsp; **RAGRouter** accepted to **NeurIPS 2025** — learning to route queries across retrieval-augmented LLMs.
 - **2025-05** &nbsp; Paper on ID-free personalized LM learning accepted to **KDD 2025**.
@@ -41,15 +43,28 @@ My current research focuses on **Large Language Models and their Applications** 
   - **Memory agent for on-device assistants** — persistent, personalized long-term memory for LLM agents (e.g., smart keyboards).
   - **Personalization without identifiers** — learning user-adaptive models from anonymous text data. (KDD'25)
   - **Privacy-aware interaction** — detecting and annotating privacy leakage in LLM dialogues to enable on-device protection. (KDD'26)
-  - **Retrieval-augmented routing** — learning to route queries across multiple retrieval-augmented LLMs for quality–efficiency trade-off. (NeurIPS'25)
-  - **Device–cloud collaborative deployment** — splitting computation and knowledge between mobile devices and the cloud.
+  - **LLM routing** — from single-turn retrieval-augmented routing (NeurIPS'25) to long-horizon **sequential routing for multi-turn dialogue** (arXiv'26).
+  - **Device–cloud collaborative deployment** — splitting computation and knowledge between mobile devices and the cloud; on-device SLMs that *learn to seek help* from cloud LLMs (arXiv'26).
 - **Reinforcement Learning** — multi-agent coordination, representation learning, exploration.
 - **Mechanism Design & Learning-based Auctions** — for online advertising systems.
+
+## Preprints
+
+<ul class="pub-list pub-list--selected">
+{% assign preprint_keys = "SeekHelp,DialRouter" | split: "," %}
+{% for key in preprint_keys %}
+  {% for post in site.publications %}
+    {% if post.permalink contains key %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</ul>
 
 ## Selected Publications
 
 <ul class="pub-list pub-list--selected">
-{% assign selected_keys = "APA,RAGRouter,IDfreePL,NA,DeepGSP,ARE" | split: "," %}
+{% assign selected_keys = "Automated_Annotation,RAGRouter,IDfreePL,NA,DeepGSP,ARE" | split: "," %}
 {% for key in selected_keys %}
   {% for post in site.publications %}
     {% if post.permalink contains key %}

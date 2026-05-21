@@ -12,25 +12,18 @@ You can also find the full list on <a href="{{ site.author.googlescholar }}">Goo
 {% endif %}
 
 {% assign by_date = site.publications | sort: "date" | reverse %}
-{% assign sorted_publications = by_date | sort: "year" | reverse %}
-{% assign current_year = "" %}
+{% assign year_groups = by_date | group_by: "year" %}
+{% assign sorted_groups = year_groups | sort: "name" | reverse %}
 
 <div class="publications">
-{% for post in sorted_publications %}
-  {% if post.year %}
-    {% assign post_year = post.year %}
-  {% else %}
-    {% assign post_year = post.date | date: "%Y" %}
-  {% endif %}
-  {% if post_year != current_year %}
-    {% unless forloop.first %}</ul>{% endunless %}
-    <h2 class="pub-year">{{ post_year }}</h2>
-    <ul class="pub-list">
-    {% assign current_year = post_year %}
-  {% endif %}
-  {% include archive-single-cv.html %}
+{% for group in sorted_groups %}
+  <h2 class="pub-year">{{ group.name }}</h2>
+  <ul class="pub-list">
+  {% for post in group.items %}
+    {% include archive-single-cv.html %}
+  {% endfor %}
+  </ul>
 {% endfor %}
-</ul>
 </div>
 
 <p class="pub-footnote"><em>* denotes equal contribution.</em></p>
