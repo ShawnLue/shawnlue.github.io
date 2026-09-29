@@ -3,7 +3,7 @@ title: "RAGRouter: Learning to Route Queries to Multiple Retrieval-Augmented Lan
 collection: publications
 permalink: /publications/RAGRouter
 excerpt: "RAGRouter: Learning to Route Queries to Multiple Retrieval-Augmented Language Models"
-date: 2025-09-19
+date: 2025-12-02
 venue: "NeurIPS"
 year: 2025
 paperurl: "https://arxiv.org/pdf/2505.23052"
