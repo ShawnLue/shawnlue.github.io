@@ -35,7 +35,15 @@ My current research focuses on **Large Language Models and their Applications** 
 - **2025-05** &nbsp; Paper on ID-free personalized LM learning accepted to **KDD 2025**.
 
 <div class="hiring-call" markdown="1">
-**📣 &nbsp; Hiring research interns** &nbsp;—&nbsp; I am looking for motivated students to work on **memory agents for on-device LLM assistants**, with a concrete landing scenario on **smart keyboards**. Strong background in LLMs / agents / systems / ML preferred. Remote or on-site in Beijing. Drop me an [email](mailto:liuxiangyu.george@gmail.com) with your CV and a short note on why you are interested.
+**📣 &nbsp; Hiring research interns** &nbsp;—&nbsp; I am looking for motivated students to work on **personal LLM agents under real interaction constraints** — always-on, latency-bound, privacy-sensitive.
+
+- **Voice agents** &nbsp;*(main focus)* — speech as a control interface rather than a transcription channel: telling instruction from dictation in one spoken stream, grounding disfluent colloquial commands, and multi-turn spoken revision of an evolving draft.
+- **Memory and continual personalization** — hierarchical memory from live context to a personal knowledge base, learned from *implicit* behavioral signals and selectively forgettable.
+- **Context-grounded generation and tool use** — in-situ question answering and rewriting that fuse context, retrieval, memory, and lightweight tools into the text being composed.
+- **Evaluating open-ended agents** — data synthesis, trajectory collection, and automatic evaluation when the *correct* output is user-dependent.
+- **Device–cloud routing** — local–cloud model selection under joint latency, cost, and privacy constraints (NeurIPS'25 / '26).
+
+Strong background in LLMs / agents / speech / ML preferred. Remote or on-site in Beijing. Drop me an [email](mailto:liuxiangyu.george@gmail.com) with your CV and a short note on why you are interested.
 </div>
 
 ## Research Interests

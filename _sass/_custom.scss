@@ -133,6 +133,15 @@ body {
 
   strong:first-child { color: #9a6a00; }
 
+  p { margin: 0 0 0.6em; }
+  p:last-child { margin-bottom: 0; }
+
+  ul {
+    margin: 0.55em 0 0.8em;
+    padding-left: 1.2em;
+  }
+  li { margin: 0.25em 0; }
+
   a {
     color: #b36b00 !important;
     border-bottom: 1px solid #f0a500 !important;
