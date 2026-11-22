@@ -14,14 +14,14 @@ redirect_from:
 
 <div class="hero">
   <h1 class="hero__name">Xiangyu Liu <span class="hero__name-alt">· 刘翔宇</span></h1>
-  <p class="hero__tagline">Senior Researcher @ WeChat AI, Tencent · Ph.D. from Peking University</p>
+  <p class="hero__tagline">Senior Researcher &amp; Team Leader @ WeChat AI, Tencent · Ph.D. from Peking University</p>
 </div>
 
 ## About
 
-I am a Senior Researcher at **WeChat AI, Tencent**. I received my Ph.D. in July 2020 from the **Key Laboratory of Machine Perception and Intelligence, School of EECS, Peking University**, under the supervision of Prof. Ying Tan. Before that, I earned a B.S. in Intelligence Science and Technology from **Nankai University** and a dual B.A. in Business Administration from **Tianjin University** in 2015.
+I am a Senior Researcher and Team Leader at **WeChat AI, Tencent**, where I lead a team working on **large language model applications**. I received my Ph.D. in July 2020 from the **Key Laboratory of Machine Perception and Intelligence, School of EECS, Peking University**, under the supervision of Prof. Ying Tan. Before that, I earned a B.S. in Intelligence Science and Technology from **Nankai University** and a dual B.A. in Business Administration from **Tianjin University** in 2015.
 
-My current research focuses on **Large Language Models and their Applications** — in particular, **personalization**, **privacy-aware interaction**, **retrieval-augmented generation**, and **device–cloud collaborative deployment**. Earlier work spans **reinforcement learning**, **mechanism design**, and **evolutionary computation**, with applications in e-commerce advertising and game AI.
+Concretely, my research covers **personalization**, **privacy-aware interaction**, **retrieval-augmented generation**, and **device–cloud collaborative deployment**. Earlier work spans **reinforcement learning**, **mechanism design**, and **evolutionary computation**, with applications in e-commerce advertising and game AI.
 
 > *Nothing is more practical than a good theory.*
 

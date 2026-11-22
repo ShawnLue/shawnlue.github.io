@@ -20,7 +20,7 @@ redirect_from:
 
 ## Experience
 
-- **Senior Researcher**, WeChat AI, Tencent &nbsp; · &nbsp; *2021 – Present*
+- **Senior Researcher & Team Leader**, WeChat AI, Tencent &nbsp; · &nbsp; *2021 – Present*
   - LLMs and their applications: personalization, privacy-aware interaction, retrieval-augmented generation routing, device–cloud collaborative deployment.
 - **Senior Algorithm Engineer**, Alibaba Group — Display Advertising &nbsp; · &nbsp; *2020 – 2021*
   - Learning-based mechanism design and auction optimization for display advertising.

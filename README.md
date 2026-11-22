@@ -1,6 +1,6 @@
 # shawnlue.github.io
 
-Personal academic homepage of **Xiangyu Liu (刘翔宇)**, Senior Researcher at WeChat AI, Tencent.
+Personal academic homepage of **Xiangyu Liu (刘翔宇)**, Senior Researcher and Team Leader at WeChat AI, Tencent.
 
 Live at: <https://shawnlue.github.io>
 

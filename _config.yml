@@ -3,7 +3,7 @@ locale                   : "en-US"
 title                    : "Xiangyu Liu"
 title_separator          : "·"
 name                     : &name "Xiangyu Liu"
-description              : &description "Senior Researcher at WeChat AI, Tencent. Research on LLMs and their applications: on-device personalization, privacy-aware interaction, retrieval-augmented generation, memory agents, and device–cloud collaboration."
+description              : &description "Senior Researcher and Team Leader at WeChat AI, Tencent. Research on LLMs and their applications: on-device personalization, privacy-aware interaction, retrieval-augmented generation, memory agents, and device–cloud collaboration."
 url                      : https://shawnlue.github.io
 baseurl                  : ""
 repository               : "ShawnLue/shawnlue.github.io"
@@ -45,7 +45,7 @@ analytics:
 author:
   name             : "Xiangyu Liu"
   avatar           : "profile.jpeg"
-  bio              : "Senior Researcher @ WeChat AI, Tencent"
+  bio              : "Senior Researcher & Team Leader @ WeChat AI, Tencent"
   location         : "Beijing, China"
   employer         : "WeChat AI, Tencent"
   googlescholar    : "https://scholar.google.com/citations?user=qPRsI4kAAAAJ&hl=en"
